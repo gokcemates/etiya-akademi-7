@@ -1,0 +1,22 @@
+# Eğer final notu 40'dan küçükse kullanıcı kaldı
+# eğer ortalama notu 50den küçükse kullanıcı kaldı
+# eğer vize finalin 2 katı ise kullanıcı kaldı
+# bunun dışındaki tüm durumlar için kullanıcı geçti yazdırmak istiyoruz.
+
+vize = int(input("Vize notunuzu giriniz: "))
+final = int(input("Final notunuzu giriniz: "))
+ortalama = (vize * 0.4) + (final * 0.6) 
+
+if final < 40:
+    print("Kaldı")
+
+elif ortalama < 50:
+    print("Kaldı")
+
+elif vize == final * 2:
+    print("Kaldı")
+
+else:
+    print("Geçti")
+    
+# Aybike Bilgin ile birlikte yapıldı.
