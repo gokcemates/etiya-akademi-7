@@ -1,0 +1,19 @@
+vize =  int(input("Vize notunuzu giriniz: "))
+final = int(input("Final notunuzu giriniz: "))
+
+ort = (vize*0.4) +(final*0.6)
+
+if  ort >= 80:
+    print('AA')
+    
+elif ort >= 70 and ort <80 :
+    print('BB')
+
+elif ort >= 60 and ort <70:
+    print('CC')
+    
+elif ort >= 50 and ort <60:
+    print('DD')
+    
+else:
+    print('FF')
